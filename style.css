@@ -82,94 +82,99 @@
 /* body styles */
 
 /* main banner styles */
-.main-banner{
-width: auto;
-background-color: #FFF;
-display: flex;
-justify-content: space-evenly;
+.main-banner {
+    width: auto;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-evenly;
 
-margin: 0 100px;
-}
-.main-banner-text{
-padding-top: 148px;
-padding-bottom: 148px;
-width: 100%;
-height: 500px;
-margin: auto;
-text-align: center;
-background-image: url(images/Group\ 14.png);
+    margin: 0 100px;
 }
 
-.main-banner-text h4{
-color: #0B0223;
-font-size: 48px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: uppercase;
+.main-banner-text {
+    padding-top: 148px;
+    padding-bottom: 148px;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    background-image: url(images/Group\ 14.png);
 }
 
-.main-banner-text h3{
-font-size: 95px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-text-transform: uppercase;
-padding-top: 20px;
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.main-banner-text h4 {
+    color: #0B0223;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
-.banner-icon{
-display: flex;
-justify-content:left;
-align-items: center;
-gap: 5px;
-padding-left: 130px;
-padding-top: 15px;
-padding-bottom: 15px;
+.main-banner-text h3 {
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 20px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.main-banner-image{
-/* width: 50%; */
-height: 600px;
-background-color: #fff;
-margin: auto;
+
+.banner-icon {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+    padding-left: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
+
+.main-banner-image {
+    /* width: 50%; */
+    height: 600px;
+    background-color: #fff;
+    margin: auto;
+}
+
 /* .main-banner-image img{
 height: 600px;
 width: 100%;
 } */
 
-.banner-button{
-display: flex;
-justify-content: center;
-padding: 35px 30px;
+.banner-button {
+    display: flex;
+    justify-content: center;
+    padding: 35px 30px;
 
-gap: 30px;
+    gap: 30px;
 }
 
-.signin{
-width: 156px;
-height: 65px;
-color: white;
-font-size: 20px;
-font-weight: 600;
-border-radius: 48px;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-border: none;
+.signin {
+    width: 156px;
+    height: 65px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
 }
-.go-rogue{
-width: 180px;
-height: 65px;
-color: white;
-font-size: 20px;
-font-weight: 600;
-background-color: #4EC5F7;
-border-radius: 75px;
-border: none;
+
+.go-rogue {
+    width: 180px;
+    height: 65px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #4EC5F7;
+    border-radius: 75px;
+    border: none;
 }
+
 /* main banner styles */
 
 /* online games funny vide */
@@ -178,25 +183,27 @@ border: none;
     text-align: center;
     margin: 40px;
 }
-.online-funny-text h2{
-color: #0B0223;
-text-align: center;
-font-family: Work Sans;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin: 10px;
+
+.online-funny-text h2 {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 10px;
 }
 
-.online-fg-desc{
-color: #534C64;
-text-align: center;
-font-family: Work Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
+.online-fg-desc {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
 }
+
 .online-games-funny-video {
     width: 100%;
     margin: auto;
@@ -293,7 +300,7 @@ font-weight: 400;
 
 /* <!-- play instantly no downloads --> */
 .all-games {
-    height: 427px;
+    height: 440px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -304,20 +311,24 @@ font-weight: 400;
 
 }
 
-.all-games a {
+.all-games button {
     text-decoration: none;
     color: #0B0223;
     font-family: Work Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    padding-left: 10px;
-
+    padding-left: 5px;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: #FFF;
 }
 
 .games-name {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     width: 250px;
     height: 60px;
     border-radius: 30px;
@@ -333,6 +344,10 @@ font-weight: 400;
     height: 60px;
     border: 2px solid #FF42A5;
     border-radius: 30px;
+    color: #FF42A5;
+}
+
+.games-name button:hover {
     color: #FF42A5;
 }
 
