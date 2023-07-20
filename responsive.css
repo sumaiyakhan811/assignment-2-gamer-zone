@@ -84,7 +84,59 @@
         padding-top: 20px;
         text-align: center;
     }
-    .play-instant-image{
-    
+
+    .play-instant-image .big-img {
+        width: 400px;
+    }
+
+
+    .play-instant-image {
+        margin-bottom: 30px;
+    }
+
+    .play-instant-image .small-img {
+        margin-top: -122px;
+        margin-left: -44px;
+        width: 200px;
+        height: 205px;
+    }
+
+   
+    .game-name {
+    flex-direction: column;
+    width: 100px;
+    } 
+
+    .footer{
+    flex-direction: column;
+    }
+
+    .footer-logo-container{
+    width: 100%;
+    flex-direction: row;
+    margin-right:20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    }
+
+    .footer-two ul{
+    width: 100%;
+    display: grid;
+    /* grid-template-columns: repeat(3,1fr); */
+    /* column-gap: 10px; */
+    align-items:flex-start;
+    justify-items: stretch;
+    }
+
+    .icons-container img {
+ 
+    justify-content: center;
+    align-items: center;
+    }
+    .footer-four p{
+    text-align: center;
+    margin: 0;
     }
 }
+
