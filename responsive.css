@@ -1,18 +1,90 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 576px) {
+
+    * {
+        overflow-x: hidden;
+    }
+
     nav {
         flex-direction: column;
+        /* max-width: 576px; */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
 
     }
 
     .nav-container {
         flex-direction: column;
-    }
-.logo-container{
-    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
     }
 
-    .nav-items-container{
-    flex-direction: column;
+    .logo-container {
+
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
 
+    .nav-items-container {
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .nav-items-container a {
+        padding: 20px;
+    }
+
+    .follow-us-box {
+        align-items: center;
+        border-radius: 8px;
+
+    }
+
+    .main-banner {
+        flex-direction: column-reverse;
+        margin: 30px;
+    }
+
+    .online-funny-text {
+        flex-direction: column;
+
+    }
+
+    .online-funny-text h2,
+    .online-fg-desc {
+        flex-direction: column;
+
+    }
+
+    .online-games-funny-video {
+        flex-direction: column;
+
+    }
+
+
+    .game-card p {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .play-instantly {
+        flex-direction: column;
+    }
+
+    .play-instant-text h2 {
+        text-align: center;
+    }
+
+    .play-instant-text p {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .play-instant-image{
+    
+    }
 }
